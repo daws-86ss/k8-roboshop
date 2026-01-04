@@ -11,4 +11,5 @@ spec:
   containers:
   - name: debug
     image: arjunkeellapati/debug:v1
+    imagePullPolicy: Always
     
