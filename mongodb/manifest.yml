@@ -12,7 +12,7 @@ spec:
   selector:
     matchLabels:
       project: roboshop
-      component: mongodb   # corrected here
+      component: mongodb  
       tier: db
   template:
     metadata:
@@ -23,4 +23,4 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: arjunkeellapati/mongodb
+        image: arjunkeellapati/mongodb:v1
