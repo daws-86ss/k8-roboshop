@@ -1,0 +1,14 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+  namespace: roboshop
+  labels:        # ✅ corrected spelling
+    name: debug
+    project: roboshop
+spec:
+  containers:
+  - name: debug
+    image: arjunkeellapati/debug:v1
+    
