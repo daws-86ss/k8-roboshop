@@ -8,12 +8,11 @@ metadata:
     component: mongodb
     tier: db
 spec:
-  # modify replicas according to your case
   replicas: 1
   selector:
     matchLabels:
       project: roboshop
-      pcomponent: mongodb
+      component: mongodb   # corrected here
       tier: db
   template:
     metadata:
